@@ -96,7 +96,7 @@ body {
 .content-right {
   padding-top: 0;
   width: 100%;
-  background-color: lightgray;
+  background-color: rgb(230, 230, 230);
 }
 
 nav {
@@ -203,6 +203,7 @@ i {
   font-size: 12px;
   opacity: 0.5;
   padding-bottom: 0.5rem;
+  margin-right: rem;
   border-bottom: 2px solid rgb(184, 184, 184);
 }
 
@@ -230,7 +231,7 @@ main {
 }
 
 .table-primary {
-  margin-top: 1rem;
+  margin: 1rem 0rem 1rem 0rem;
   border-collapse: collapse;
   color: gray;
 }
@@ -243,6 +244,80 @@ main {
   padding: 7px;
   font-size: 12px;
 }
+
+.table-primary td .td2 {
+  all: unset;
+}
+
+.other-jobs {
+  margin: 0rem 1rem 0rem 1rem;
+  width: 14rem
+}
+
+.share {
+  background-color: white;
+  border-radius: 3px;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  font-size: 12px;
+}
+
+.share i {
+  margin-right: 0.8rem;
+  margin-left: -1.3rem;
+  color: rgb(49, 49, 196);
+  font-size: 28px;
+}
+
+.share p {
+  margin-top: 0.5rem;
+}
+
+.other-jobs-links {
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 3px;
+  height: 18rem;
+  padding: 1.5rem;
+}
+
+.job-links {
+  margin-top: 1rem;
+}
+
+.job1,
+.job2,
+.job3,
+.job4 {
+  display: flex;
+  font-size: 10px;
+  margin: 0.5rem;
+  margin-bottom: 0.8rem
+}
+
+.job1 h6,
+.job2 h6,
+.job3 h6,
+.job4 h6 {
+  font-size: 13px;
+  color: rgb(0, 94, 255);
+}
+
+.job1 img,
+.job2 img,
+.job3 img,
+.job4 img {
+  height: 2.5rem;
+  margin-left: -1rem;
+  margin-right: 1rem;
+}
+
+.job4 img {
+  margin-right: 1.6rem;
+}
+
 
 
 
