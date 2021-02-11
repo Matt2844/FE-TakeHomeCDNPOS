@@ -41,7 +41,7 @@ body {
   border: 1px solid rgb(40, 139, 172); 
   border-radius: 33px;
   padding: 0.4rem 0.8rem 0.3rem 0.8rem;
-  font-size: 12px;
+  font-size: 10px;
   color: rgb(235, 235, 235); 
   cursor: pointer;
   opacity: 0.7;
@@ -94,6 +94,156 @@ body {
 /* main content area */
 
 .content-right {
+  padding-top: 0;
   width: 100%;
+  background-color: lightgray;
 }
+
+nav {
+  background-color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 3px solid transparent;
+}
+
+i {
+  color: lightgray;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid rgb(47, 160, 194);
+  color: rgb(47, 160, 194);
+  transition: 0.3s ease-out
+}
+
+.topnav a:hover i {
+  color: rgb(47, 160, 194)
+}
+
+/* User status heading */
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 1.5rem 0rem 1rem;
+}
+
+.user-info h3 {
+  font-size: 16px;
+  margin-top: 0.5rem; 
+}
+
+.user-info h4 {
+  font-size: 12px;
+  color: rgb(104, 104, 104);
+}
+
+.status-menu {
+  display: flex;
+}
+
+.status {
+  margin-top: 1rem; 
+  margin-right: 1rem;
+  display: flex;
+  cursor: default;
+  background-color: white; 
+  padding: 0.4rem 0.7rem 0rem 0.4rem;
+  font-size: 12px; 
+  border-radius: 33px;
+}
+
+.fa-circle {
+  margin-top: 1px;
+  margin-right: 0.4rem;
+  color: rgb(38, 171, 38); 
+}
+
+.fa-redo,
+.fa-edit, 
+.fa-trash-alt {
+  color: rgb(100, 187, 216);
+  margin: 1rem 0.5rem 0rem 0.5rem; 
+  cursor: pointer;
+  background-color: white;
+  padding: 0.4rem;
+  border-radius: 33px; 
+  font-size: 12px;
+}
+
+/* Secondary Nav */
+
+.mid-nav {
+  margin: 1rem 2rem 0rem 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgb(184, 184, 184)
+}
+
+.mid-nav a {
+  margin-top: 1rem; 
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  opacity: 0.5;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgb(184, 184, 184);
+}
+
+.mid-nav a:hover {
+  border-bottom: 2px solid rgb(47, 160, 194);
+  opacity: 1;
+  transition: 0.3s ease-out;
+  color: rgb(47, 160, 194);
+}
+
+
+/* Main content section */
+
+main {
+  display: flex;
+  padding: 1rem;
+  
+}
+
+.job-description {
+  background-color: white;
+  padding: 1rem;
+  width: 65%;
+  border-radius: 3px;
+}
+
+.table-primary {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  color: gray;
+}
+
+.table-primary tr {
+  border-bottom: 1pt solid lightgrey;
+}
+
+.table-primary td {
+  padding: 7px;
+  font-size: 12px;
+}
+
+
+
 
